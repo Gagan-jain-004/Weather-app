@@ -31,21 +31,8 @@ export default function SearchBox({updateInfo,Error}) {
     }
 };
 
-// let handleSubmit =async (evt) =>{
-//     try{
-//          evt.preventDefault(),
-//          setCity("");
-//         console.log(city);
-//       let newInfo = await  getWeatherInfo();
-//       return updateInfo(newInfo);
-//     }catch(err){
-//        error=setError(true);
-//     }
-//     }; 
 
-//     const handleError=()=>{
-//         setError(false);
-//      }
+
 let handleSubmit =async (evt) =>{
     try{
          evt.preventDefault(),
@@ -58,9 +45,6 @@ let handleSubmit =async (evt) =>{
     }
     }; 
 
-    useEffect(()=>{
-        getWeatherInfo();
-    },[]);
     return (
         <div className='SearchBox'>
             <form onSubmit={handleSubmit}>
