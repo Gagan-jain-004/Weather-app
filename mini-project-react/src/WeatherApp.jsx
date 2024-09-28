@@ -31,7 +31,7 @@ export default function WeatherApp(){
 
     return(
         <div style={{textAlign: "center"}}> 
-            <h2>Weather search </h2>
+            <h2>Weather Architecture</h2>
         {!error && <SearchBox updateInfo={updateInfo} error={Error}
         />}
         < InfoBox info={weatherInfo} />
