@@ -17,5 +17,7 @@ Responsive and easy-to-use interface
 Technologies Used
 
 React
+
 JavaScript
+
 Weather API (OpenWeatherMap API)
